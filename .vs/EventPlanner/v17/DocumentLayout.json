@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|c:\\users\\juanp\\source\\repos\\eventplanner\\models\\registros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:models\\registros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|c:\\users\\juanp\\source\\repos\\eventplanner\\models\\participantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:models\\participantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Registros.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Registros.cs",
+              "RelativeDocumentMoniker": "Models\\Registros.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Registros.cs",
+              "RelativeToolTip": "Models\\Registros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:40:15.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Participantes.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Participantes.cs",
               "RelativeDocumentMoniker": "Models\\Participantes.cs",
