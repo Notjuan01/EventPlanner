@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|c:\\users\\juanp\\source\\repos\\eventplanner\\models\\recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:models\\recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|c:\\users\\juanp\\source\\repos\\eventplanner\\models\\registros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:models\\registros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Recursos.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Recursos.cs",
+              "RelativeDocumentMoniker": "Models\\Recursos.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Recursos.cs",
+              "RelativeToolTip": "Models\\Recursos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:46:18.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Registros.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Registros.cs",
               "RelativeDocumentMoniker": "Models\\Registros.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Participantes.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\EventPlanner\\Models\\Participantes.cs",
               "RelativeDocumentMoniker": "Models\\Participantes.cs",
@@ -51,8 +68,7 @@
               "RelativeToolTip": "Models\\Participantes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T19:52:09.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T19:52:09.164Z"
             }
           ]
         }
