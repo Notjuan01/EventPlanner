@@ -1,6 +1,6 @@
 ﻿namespace EventPlanner.Models
 {
-    public class Recursos
+    public class Recurso
     {
     public int IdRecurso { get; set; }
     public int IdEvento { get; set; }
