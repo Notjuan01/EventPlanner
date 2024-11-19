@@ -8,7 +8,7 @@
         public string EventoDescription { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin {  get; set; }
-     public int IdUbicacion { get; set; }
+        public int IdUbicacion { get; set; }
 
     }
 }
