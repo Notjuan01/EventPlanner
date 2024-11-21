@@ -1,0 +1,59 @@
+﻿@page
+@model EventPlanner.Pages.Evento.CreateModel
+@{
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Create New Evento</h1>
+    <h4 class="text-center text-secondary">Please fill out the form below</h4>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group">
+                    <label asp-for="Evento.EventoName" class="control-label">Nombre</label>
+                    <input asp-for="Evento.EventoName" class="form-control" placeholder="Enter event name" />
+                    <span asp-validation-for="Evento.EventoName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Evento.EventoDescription" class="control-label">Descripcion</label>
+                    <input asp-for="Evento.EventoDescription" class="form-control" placeholder="Enter event description" />
+                    <span asp-validation-for="Evento.EventoDescription" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Evento.FechaInicio" class="control-label">Fecha de inicio</label>
+                    <input asp-for="Evento.FechaInicio" class="form-control" placeholder="Enter fecha de inicio" />
+                    <span asp-validation-for="Evento.FechaInicio" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Evento.FechaFin" class="control-label">Fecha final</label>
+                    <input asp-for="Evento.FechaFin" class="form-control" placeholder="Enter fecha final" />
+                    <span asp-validation-for="Evento.FechaFin" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Evento.IdUbicacion" class="control-label">Id ubicacion</label>
+                    <input asp-for="Evento.IdUbicacion" class="form-control" placeholder="Enter id ubicacion" />
+                    <span asp-validation-for="Evento.IdUbicacion" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4 d-flex justify-content-between">
+                    <input type="submit" value="Create event" class="btn btn-success" />
+                    <a asp-page="Index" class="btn btn-outline-primary">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
