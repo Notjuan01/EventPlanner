@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Desktop\\Romo\\EventPlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\evento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\evento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\evento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\evento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\evento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\evento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Evento\\Index.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Evento\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T07:14:28.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Evento\\Delete.cshtml",
               "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Delete.cshtml",
               "RelativeToolTip": "Pages\\Evento\\Delete.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T06:59:16.712Z",
+              "WhenOpened": "2024-11-21T07:13:03.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Evento\\Editar.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Evento\\Editar.cshtml",
+              "RelativeToolTip": "Pages\\Evento\\Editar.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T07:01:56.177Z",
               "EditorCaption": ""
             }
           ]
