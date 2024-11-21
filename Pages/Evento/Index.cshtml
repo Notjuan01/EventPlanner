@@ -1,0 +1,58 @@
+﻿@page
+@model EventPlanner.Pages.Eventos.IndexModel
+@{
+	ViewData["Title"] = "Index Evento";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center text-primary">Evento Index</h1>
+
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-page="Create" class="btn btn-outline-primary btn-lg">
+            <i class="bi bi-plus-circle"></i> Create New Evento
+        </a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Evento[0].EventoName)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Evento[0].EventoDescription)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Evento[0].FechaInicio)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Evento[0].FechaFin)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Evento[0].IdUbicacion)
+                </th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Evento)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.EventoName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.EventoDescription)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaInicio)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaFin)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IdUbicacion)</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                            <i class="bi bi-pencil"></i> Edit
+                        </a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,9 +1,12 @@
-﻿namespace EventPlanner.Models
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
+using EventPlanner.Models;
+
+namespace EventPlanner.Models
 {
-    public class Evento
+    public class Evento1
     {
-     public int IdEvento { get; set; }
-     
+        public int Id { get; set; }
         public string EventoName { get; set; }
         public string EventoDescription { get; set; }
         public DateTime FechaInicio { get; set; }
