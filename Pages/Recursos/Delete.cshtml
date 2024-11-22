@@ -1,0 +1,42 @@
+﻿@page
+@model EventPlanner.Pages.Recursos.DeleteModel
+@{
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-danger">Eliminar recurso</h1>
+    <h3 class="text-center text-warning">¿Estás seguro de que deseas eliminar este recurso?</h3>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="alert alert-warning" role="alert">
+                <strong>Advertencia!</strong> Esta acción no se puede deshacer.
+            </div>
+
+            <h4 class="text-center">Detalles del recurso</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Id evento</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Recursos.IdEvento)</dd>
+
+                <dt class="col-sm-4">Nombre</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Recursos.NombreRecurso)</dd>
+
+                <dt class="col-sm-4">Cantidad</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Recursos.Cantidad)</dd>
+
+                <dt class="col-sm-4">Descripcion</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Recursos.Decripcion)</dd>
+
+            </dl>
+
+            <form method="post">
+                <input type="hidden" asp-for="Recursos.Id" />
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-danger btn-lg">Eliminar</button>
+                    <a asp-page="./Index" class="btn btn-outline-primary btn-lg">Volver atras</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
