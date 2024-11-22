@@ -1,0 +1,53 @@
+﻿@page
+@model EventPlanner.Pages.Recursos.CreateModel
+@{
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Crear nuevo recurso</h1>
+    <h4 class="text-center text-secondary">Por favor complete el formulario a continuación</h4>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group">
+                    <label asp-for="Recursos.IdEvento" class="control-label">Id evento</label>
+                    <input asp-for="Recursos.IdEvento" class="form-control" placeholder="Ingresar el id del evento" />
+                    <span asp-validation-for="Recursos.IdEvento" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Recursos.NombreRecurso" class="control-label">Nombre</label>
+                    <input asp-for="Recursos.NombreRecurso" class="form-control" placeholder="ingresar nombre del recurso" />
+                    <span asp-validation-for="Recursos.NombreRecurso" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Recursos.Cantidad" class="control-label">Cantidad</label>
+                    <input asp-for="Recursos.Cantidad" class="form-control" placeholder="ingresar cantidad del recurso" />
+                    <span asp-validation-for="Recursos.Cantidad" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Recursos.Decripcion" class="control-label">Descripcion</label>
+                    <input asp-for="Recursos.Decripcion" class="form-control" placeholder="ingresar descripcion del recurso" />
+                    <span asp-validation-for="Recursos.Decripcion" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4 d-flex justify-content-between">
+                    <input type="submit" value="Create event" class="btn btn-success" />
+                    <a asp-page="Index" class="btn btn-outline-primary">Volver atras</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
