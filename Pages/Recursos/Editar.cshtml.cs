@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
-namespace EventPlanner.Pages.Participantes
+
+namespace EventPlanner.Pages.Recursos
 {
     public class EditarModel : PageModel
     {
@@ -16,21 +17,21 @@ namespace EventPlanner.Pages.Participantes
         }
 
         [BindProperty]
-        public Participante Participantes { get; set; } = default!;
+        public Recurso Recursos { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Participantes == null)
+            if (id == null || _context.Recursos == null)
             {
                 return NotFound();
             }
 
-            var participante = await _context.Participantes.FirstOrDefaultAsync(m => m.ID == id);
-            if (participante == null)
+            var recurso = await _context.Recursos.FirstOrDefaultAsync(m => m.Id == id);
+            if (recurso == null)
             {
                 return NotFound();
             }
-            Participantes = participante;
+            Recursos = recurso;
             return Page();
         }
 
@@ -41,7 +42,7 @@ namespace EventPlanner.Pages.Participantes
                 return Page();
             }
 
-            _context.Attach(Participantes).State = EntityState.Modified;
+            _context.Attach(Recursos).State = EntityState.Modified;
 
             try
             {
@@ -49,7 +50,7 @@ namespace EventPlanner.Pages.Participantes
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ParticipanteExists(Participantes.ID))
+                if (!RecursoExists(Recursos.Id))
                 {
                     return NotFound();
                 }
@@ -62,9 +63,9 @@ namespace EventPlanner.Pages.Participantes
             return RedirectToPage("./Index");
         }
 
-        private bool ParticipanteExists(int id)
+        private bool RecursoExists(int id)
         {
-            return (_context.Participantes?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Recursos?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
