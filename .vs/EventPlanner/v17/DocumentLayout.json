@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Desktop\\Romo\\EventPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\registros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\registros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\registros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\registros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\recursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\recursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\recursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\recursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Recursos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Recursos\\Index.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Recursos\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Recursos\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Recursos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Recursos\\Create.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Recursos\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Recursos\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:01:42.429Z",
+              "WhenOpened": "2024-11-22T04:04:21.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Registros\\Index.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Registros\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABIAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Registros\\Create.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Registros\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:01:41.533Z",
+              "WhenOpened": "2024-11-22T04:04:20.381Z",
               "EditorCaption": ""
             }
           ]
