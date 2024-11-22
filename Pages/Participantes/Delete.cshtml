@@ -1,0 +1,41 @@
+﻿@page
+@model EventPlanner.Pages.Participantes.DeleteModel
+@{
+}
+<div class="container mt-5">
+    <h1 class="text-center text-danger">Eliminar participante</h1>
+    <h3 class="text-center text-warning">¿Estás seguro de que deseas eliminar este participante?</h3>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="alert alert-warning" role="alert">
+                <strong>Advertencia!</strong> Esta acción no se puede deshacer.
+            </div>
+
+            <h4 class="text-center">Detalles del participante</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Nombre</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Participantes.Nombre)</dd>
+
+                <dt class="col-sm-4">Apellido</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Participantes.Apellido)</dd>
+
+                <dt class="col-sm-4">Email</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Participantes.Email)</dd>
+
+                <dt class="col-sm-4">Telefono</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Participantes.Telefono)</dd>
+
+            </dl>
+
+            <form method="post">
+                <input type="hidden" asp-for="Participantes.ID" />
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-danger btn-lg">Eliminar</button>
+                    <a asp-page="./Index" class="btn btn-outline-primary btn-lg">Volver atras</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
