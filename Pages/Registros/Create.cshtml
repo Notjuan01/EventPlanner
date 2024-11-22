@@ -1,0 +1,47 @@
+﻿@page
+@model EventPlanner.Pages.Registros.CreateModel
+@{
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Crear nuevo registro</h1>
+    <h4 class="text-center text-secondary">Por favor complete el formulario a continuación</h4>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group">
+                    <label asp-for="Registros.IdEvento" class="control-label">Id evento</label>
+                    <input asp-for="Registros.IdEvento" class="form-control" placeholder="Ingresar el id del evento" />
+                    <span asp-validation-for="Registros.IdEvento" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Registros.IdParticipante" class="control-label">Id participante</label>
+                    <input asp-for="Registros.IdParticipante" class="form-control" placeholder="Ingresar id del participante" />
+                    <span asp-validation-for="Registros.IdParticipante" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label asp-for="Registros.FechaRegistro" class="control-label">Fecha de registro</label>
+                    <input asp-for="Registros.FechaRegistro" class="form-control" placeholder="Ingresar fecha del registro" />
+                    <span asp-validation-for="Registros.FechaRegistro" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4 d-flex justify-content-between">
+                    <input type="submit" value="Create event" class="btn btn-success" />
+                    <a asp-page="Index" class="btn btn-outline-primary">Volver atras</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

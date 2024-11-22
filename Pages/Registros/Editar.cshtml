@@ -1,0 +1,51 @@
+﻿@page
+@model EventPlanner.Pages.Registros.EditarModel
+@{
+}
+
+<h1>Editar registros</h1>
+
+<h4>Detalles del registro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <input type="hidden" asp-for="Registros.Id" />
+
+
+            <div class="form-group">
+                <label asp-for="Registros.IdEvento" class="control-label"></label>
+                <input asp-for="Registros.IdEvento" class="form-control" placeholder="Ingresar id del evento" />
+                <span asp-validation-for="Registros.IdEvento" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Registros.IdParticipante" class="control-label"></label>
+                <textarea asp-for="Registros.IdParticipante" class="form-control" placeholder="Ingresar id del participante" rows="3"></textarea>
+                <span asp-validation-for="Registros.IdParticipante" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Registros.FechaRegistro" class="control-label"></label>
+                <textarea asp-for="Registros.FechaRegistro" class="form-control" placeholder="Ingresar fecha de registro" rows="3"></textarea>
+                <span asp-validation-for="Registros.FechaRegistro" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group d-flex justify-content-between">
+                <input type="submit" value="Guardar cambios" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-primary">Volver atras</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

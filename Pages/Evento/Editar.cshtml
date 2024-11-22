@@ -1,0 +1,64 @@
+﻿@page
+@model EventPlanner.Pages.Evento.EditarModel
+@{
+    ViewData["Title"] = "Edit event";
+}
+
+<h1>Editar evento</h1>
+
+<h4>Detalles del evento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            
+            <input type="hidden" asp-for="Evento1.Id" />
+
+            
+            <div class="form-group">
+                <label asp-for="Evento1.EventoName" class="control-label"></label>
+                <input asp-for="Evento1.EventoName" class="form-control" placeholder="Ingresar nombre del evento" />
+                <span asp-validation-for="Evento1.EventoName" class="text-danger"></span>
+            </div>
+
+            
+            <div class="form-group">
+                <label asp-for="Evento1.EventoDescription" class="control-label"></label>
+                <textarea asp-for="Evento1.EventoDescription" class="form-control" placeholder="Ingresar descripcion del evento" rows="3"></textarea>
+                <span asp-validation-for="Evento1.EventoDescription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Evento1.FechaInicio" class="control-label"></label>
+                <textarea asp-for="Evento1.FechaInicio" class="form-control" placeholder="Ingresar fecha de inicio" rows="3"></textarea>
+                <span asp-validation-for="Evento1.FechaInicio" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Evento1.FechaFin" class="control-label"></label>
+                <textarea asp-for="Evento1.FechaFin" class="form-control" placeholder="Ingresar fecha final" rows="3"></textarea>
+                <span asp-validation-for="Evento1.FechaFin" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Evento1.IdUbicacion" class="control-label"></label>
+                <textarea asp-for="Evento1.IdUbicacion" class="form-control" placeholder="Ingresar id ubicacion" rows="3"></textarea>
+                <span asp-validation-for="Evento1.IdUbicacion" class="text-danger"></span>
+            </div>
+
+            
+            <div class="form-group d-flex justify-content-between">
+                <input type="submit" value="Guardar cambios" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-primary">Volver atras</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

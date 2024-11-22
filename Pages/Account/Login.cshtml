@@ -1,0 +1,49 @@
+﻿@page
+@model EventPlanner.Pages.Account.LoginModel
+@{
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-6 col-sm-8">
+            <!-- Card Container -->
+            <div class="card shadow-lg border-0 rounded">
+                <div class="card-body p-4">
+                    <h3 class="text-center mb-4">Sign In</h3>
+
+                    <form method="post">
+                        <!-- General Validation Summary -->
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-3" role="alert"></div>
+
+                        <!-- Email Field -->
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email </label>
+                            <input asp-for="User.Email" class="form-control" id="email" type="email" placeholder="Ingrese su email" required />
+                            <span asp-validation-for="User.Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input asp-for="User.Password" class="form-control" id="password" type="password" placeholder="Ingrese su contraseña" required />
+                            <span asp-validation-for="User.Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Remember Me -->
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="rememberMe" />
+                            <label class="form-check-label" for="rememberMe">Recuerdame</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <a href="./Register" class="btn btn-link">¿No tienes una cuenta? Registrate ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

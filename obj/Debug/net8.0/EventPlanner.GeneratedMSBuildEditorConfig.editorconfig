@@ -17,39 +17,131 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventPlanner
 build_property.RootNamespace = EventPlanner
-build_property.ProjectDir = C:\Users\LMAINGUEZ\Desktop\Nueva carpeta\EventPlanner\
+build_property.ProjectDir = E:\Desktop\Romo\EventPlanner\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\LMAINGUEZ\Desktop\Nueva carpeta\EventPlanner
+build_property.MSBuildProjectDirectory = E:\Desktop\Romo\EventPlanner
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/Error.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/Index.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/Evento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Evento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Evento/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Evento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/Privacy.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/Participantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGljaXBhbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Participantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGljaXBhbnRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Participantes/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGljaXBhbnRlc1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Participantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGljaXBhbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[E:/Desktop/Romo/EventPlanner/Pages/Recursos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjdXJzb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/_ViewImports.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/Recursos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjdXJzb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Recursos/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjdXJzb3NcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Recursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjdXJzb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Registros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Registros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Registros/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Registros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Shared/_LoginStatusPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblN0YXR1c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Ubicacion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWJpY2FjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Ubicacion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWJpY2FjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Ubicacion/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWJpY2FjaW9uXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/Ubicacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWJpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/Romo/EventPlanner/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/_ViewStart.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LMAINGUEZ/Desktop/Nueva carpeta/EventPlanner/Pages/Shared/_Layout.cshtml]
+[E:/Desktop/Romo/EventPlanner/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sa2n4oifdu
