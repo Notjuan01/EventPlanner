@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Desktop\\Romo\\EventPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\ubicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\ubicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\ubicacion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\ubicacion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\registros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\registros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\registros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\registros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Registros\\Create.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Create.cshtml",
-              "RelativeToolTip": "Pages\\Registros\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Registros\\Delete.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Registros\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:17:45.012Z",
+              "WhenOpened": "2024-11-22T04:22:26.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Ubicacion\\Create.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Create.cshtml",
-              "RelativeToolTip": "Pages\\Ubicacion\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB9AAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Ubicacion\\Delete.cshtml",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Ubicacion\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:17:44.093Z",
+              "WhenOpened": "2024-11-22T04:22:25.413Z",
               "EditorCaption": ""
             }
           ]
