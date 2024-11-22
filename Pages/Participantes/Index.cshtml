@@ -1,0 +1,54 @@
+﻿@page
+@model EventPlanner.Pages.Participantes.IndexModel
+@{
+    ViewData["Title"] = "Index Participante";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center text-primary">Participantes</h1>
+
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-page="Create" class="btn btn-outline-primary btn-lg">
+            <i class="bi bi-plus-circle"></i> Crear nuevo participante
+        </a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Participantes[0].Nombre)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Participantes[0].Apellido)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Participantes[0].Email)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Participantes[0].Telefono)
+                </th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Participantes)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Apellido)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                    <td>
+                        <a asp-page="./Editar" asp-route-id="@item.ID" class="btn btn-warning btn-sm">
+                            <i class="bi bi-pencil"></i> Editar
+                        </a>
+                        <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash"></i> Eliminar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
