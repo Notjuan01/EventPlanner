@@ -15,6 +15,7 @@ namespace EventPlanner.Data
         public DbSet<Recurso> Recursos { get; set; }
         public DbSet<Registro> Registros { get; set; }
         public DbSet<Ubicaciones> Ubicacion { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }

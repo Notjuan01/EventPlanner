@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\Desktop\\Romo\\EventPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\ubicacion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\ubicacion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\registros\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\registros\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|e:\\desktop\\romo\\eventplanner\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D8E1D1-D593-41D3-BA94-B951DC2318D2}|EventPlanner.csproj|solutionrelative:pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Registros\\Editar.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Registros\\Editar.cshtml",
-              "RelativeToolTip": "Pages\\Registros\\Editar.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:25:48.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Ubicacion\\Editar.cshtml",
-              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Ubicacion\\Editar.cshtml",
-              "RelativeToolTip": "Pages\\Ubicacion\\Editar.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:25:47.589Z",
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "E:\\Desktop\\Romo\\EventPlanner\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:43:16.18Z",
               "EditorCaption": ""
             }
           ]
