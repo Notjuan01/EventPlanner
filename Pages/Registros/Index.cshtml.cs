@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using EventPlanner.Data;
 using EventPlanner.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EventPlanner.Pages.Registros
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly EventPlannerContext _context;

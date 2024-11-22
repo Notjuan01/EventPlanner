@@ -1,5 +1,7 @@
-using EventPlanner.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using EventPlanner.Data;
+using EventPlanner.Models;
 
 namespace EventPlanner
 {
@@ -9,16 +11,21 @@ namespace EventPlanner
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add services to the container.
+            builder.Services.AddRazorPages();
+
+            builder.Services.AddAuthentication().AddCookie("MycookieAuth", options =>
+            {
+                options.Cookie.Name = "MycookieAuth";
+                options.LoginPath = "/Account/Login";
+            });
+
             builder.Services.AddDbContext<EventPlannerContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("EventPlannerDB"))
             );
 
-            // Add services to the container.
-            builder.Services.AddRazorPages();
-
             var app = builder.Build();
             
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
